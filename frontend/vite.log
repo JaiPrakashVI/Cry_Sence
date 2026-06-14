@@ -1,0 +1,79 @@
+
+> crysense-frontend@1.0.0 dev
+> vite --host 127.0.0.1 --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v7.3.5[39m  [2mready in [0m[1m265[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[31m(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (C:\Users\Jai Prakash VI\OneDrive\Documents\Desktop\Hackathons\frontend\Cry_Sence\frontend\node_modules\esbuild\lib\main.js:2268:29)
+    at Object.context (C:\Users\Jai Prakash VI\OneDrive\Documents\Desktop\Hackathons\frontend\Cry_Sence\frontend\node_modules\esbuild\lib\main.js:2167:33)
+    at prepareEsbuildScanner (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:31534:23)
+    at async scan (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:31460:14)
+    at async file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:34191:15[39m
+[2m1:29:44 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\Jai Prakash VI\OneDrive\Documents\Desktop\Hackathons\frontend\Cry_Sence\frontend\node_modules\.vite\deps_temp_c66784b9' -> 'C:\Users\Jai Prakash VI\OneDrive\Documents\Desktop\Hackathons\frontend\Cry_Sence\frontend\node_modules\.vite\deps'[39m
+[2m1:29:56 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m1:29:56 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: spawn EPERM[39m
+      at ChildProcess.spawn (node:internal/child_process:421:11)
+      at spawn (node:child_process:796:9)
+      at Object.execFile (node:child_process:349:17)
+      at exec (node:child_process:236:25)
+      at optimizeSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2230:2)
+      at windowsSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2216:3)
+      at getRealPath (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33013:36)
+      at tryResolveRealFileOrType (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33007:9)
+      at tryCleanFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32731:21)
+      at tryFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32724:14)
+[2m1:30:07 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m1:30:07 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: spawn EPERM[39m
+      at ChildProcess.spawn (node:internal/child_process:421:11)
+      at spawn (node:child_process:796:9)
+      at Object.execFile (node:child_process:349:17)
+      at exec (node:child_process:236:25)
+      at optimizeSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2230:2)
+      at windowsSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2216:3)
+      at getRealPath (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33013:36)
+      at tryResolveRealFileOrType (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33007:9)
+      at tryCleanFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32731:21)
+      at tryFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32724:14)
+[2m1:31:46 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m1:31:46 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: spawn EPERM[39m
+      at ChildProcess.spawn (node:internal/child_process:421:11)
+      at spawn (node:child_process:796:9)
+      at Object.execFile (node:child_process:349:17)
+      at exec (node:child_process:236:25)
+      at optimizeSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2230:2)
+      at windowsSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2216:3)
+      at getRealPath (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33013:36)
+      at tryResolveRealFileOrType (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33007:9)
+      at tryCleanFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32731:21)
+      at tryFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32724:14)
+[2m1:31:57 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m1:31:57 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: spawn EPERM[39m
+      at ChildProcess.spawn (node:internal/child_process:421:11)
+      at spawn (node:child_process:796:9)
+      at Object.execFile (node:child_process:349:17)
+      at exec (node:child_process:236:25)
+      at optimizeSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2230:2)
+      at windowsSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2216:3)
+      at getRealPath (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33013:36)
+      at tryResolveRealFileOrType (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33007:9)
+      at tryCleanFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32731:21)
+      at tryFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32724:14)
+[2m1:32:05 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: spawn EPERM
+[2m1:32:06 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: spawn EPERM[39m
+      at ChildProcess.spawn (node:internal/child_process:421:11)
+      at spawn (node:child_process:796:9)
+      at Object.execFile (node:child_process:349:17)
+      at exec (node:child_process:236:25)
+      at optimizeSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2230:2)
+      at windowsSafeRealPathSync (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:2216:3)
+      at getRealPath (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33013:36)
+      at tryResolveRealFileOrType (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:33007:9)
+      at tryCleanFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32731:21)
+      at tryFsResolve (file:///C:/Users/Jai%20Prakash%20VI/OneDrive/Documents/Desktop/Hackathons/frontend/Cry_Sence/frontend/node_modules/vite/dist/node/chunks/config.js:32724:14)
